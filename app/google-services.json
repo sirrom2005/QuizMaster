@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "24450573719",
+    "firebase_url": "https://quizmaster-9aaf4.firebaseio.com",
+    "project_id": "quizmaster-9aaf4",
+    "storage_bucket": "quizmaster-9aaf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24450573719:android:192343a0e712543d",
+        "android_client_info": {
+          "package_name": "info.rohanmorris.quizmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24450573719-vhk1qiears29jia8vknb9mkg1r3upvpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.rohanmorris.quizmaster",
+            "certificate_hash": "2052fe931f237a2ccf39007916da2dceb6cee996"
+          }
+        },
+        {
+          "client_id": "24450573719-vvcbnnbnskvevimf5bedg1uu4i4453ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQIeRAeMel-guRGar65O9gKZJAdJXUVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24450573719-vvcbnnbnskvevimf5bedg1uu4i4453ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

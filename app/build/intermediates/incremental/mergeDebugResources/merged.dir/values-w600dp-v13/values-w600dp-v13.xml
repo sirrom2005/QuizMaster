@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quiz_mar">100dp</dimen>
+    <dimen name="quiz_pad">10dp</dimen>
+    <dimen name="result_padb">80dp</dimen>
+    <dimen name="result_padl">80dp</dimen>
+    <dimen name="result_padr">80dp</dimen>
+    <dimen name="result_padt">50dp</dimen>
+</resources>

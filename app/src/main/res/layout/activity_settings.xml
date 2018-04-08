@@ -1,0 +1,79 @@
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/result_padt"
+    android:paddingLeft="@dimen/result_padl"
+    android:paddingRight="@dimen/result_padr"
+    android:paddingBottom="@dimen/result_padb"
+    android:paddingStart="@dimen/result_padl"
+    android:paddingEnd="@dimen/result_padr"
+    android:background="#2B60DE"
+    tools:context="info.rohanmorris.quizmaster.SettingsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/background"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/settings"
+            android:text="@string/settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            style="@style/Divider"/>
+
+        <TextView
+            android:text="@string/difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:text="@string/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/save"
+            android:text="@string/save_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            style="@style/button"/>
+    </LinearLayout>
+
+</RelativeLayout>

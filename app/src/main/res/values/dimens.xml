@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="quiz_pad">0dp</dimen>
+    <dimen name="quiz_mar">0dp</dimen>
+    <dimen name="result_padt">0dp</dimen>
+    <dimen name="result_padl">0dp</dimen>
+    <dimen name="result_padr">0dp</dimen>
+    <dimen name="result_padb">0dp</dimen>
+</resources>

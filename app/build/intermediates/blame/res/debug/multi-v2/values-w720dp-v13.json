@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rohan/AndroidStudioProjects/QuizMaster/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/rohan/AndroidStudioProjects/QuizMaster/app/src/main/res/values-w720dp/dimens.xml",
+                    "from": {
+                        "startLines": "3,2,7,5,6,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "95,55,267,179,223,136",
+                        "endColumns": "40,39,43,43,43,42",
+                        "endOffsets": "131,90,306,218,262,174"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,96,136,180,224,268",
+                        "endColumns": "40,39,43,43,43,42",
+                        "endOffsets": "91,131,175,219,263,306"
+                    }
+                }
+            ]
+        }
+    ]
+}

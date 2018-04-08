@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/rohan/AndroidStudioProjects/QuizMaster/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/rohan/AndroidStudioProjects/QuizMaster/app/src/main/res/values-w600dp/dimens.xml",
+                    "from": {
+                        "startLines": "3,2,7,5,6,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "95,55,265,179,222,136",
+                        "endColumns": "40,39,42,42,42,42",
+                        "endOffsets": "131,90,303,217,260,174"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,96,136,179,222,265",
+                        "endColumns": "40,39,42,42,42,42",
+                        "endOffsets": "91,131,174,217,260,303"
+                    }
+                }
+            ]
+        }
+    ]
+}

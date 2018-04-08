@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Launcher" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="quiz_question">
+        <item name="android:background">@drawable/quiz_background</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="question">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="question1" parent="question">
+        <item name="android:background">@drawable/ans1_background</item>
+    </style>
+
+    <style name="question2" parent="question">
+        <item name="android:background">@drawable/ans2_background</item>
+    </style>
+
+    <style name="question3" parent="question">
+        <item name="android:background">@drawable/ans3_background</item>
+    </style>
+
+    <style name="question4" parent="question">
+        <item name="android:background">@drawable/ans4_background</item>
+    </style>
+
+    <style name="button">
+        <item name="android:background">@drawable/button_bkground</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+</resources>
