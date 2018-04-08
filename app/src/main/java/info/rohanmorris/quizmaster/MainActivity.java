@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
             super.onPostExecute(s);
             if(s != null) {
                 Gson gson = new Gson();
-                QuizDataModel QuizArray = gson.fromJson(s, QuizDataModel.class);
+                QuizDataModel QuizArray = gson.fromJson("", QuizDataModel.class);
 
                 switch(QuizArray.getResponseCode()) {
                     case 0:

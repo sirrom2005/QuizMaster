@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 /**
  * Created by iceman
- * date 3/24/18...git init
+ * date 3/24/18...
  */
 
 class Common {
 
-    static ArrayList<Category> getGameLevelListgg(){
+    static ArrayList<Category> getGameLevelList(){
         ArrayList<Category> level2 = new ArrayList<>();
         level2.add(new Category(0,"Any Level"));
         level2.add(new Category(1,"Easy"));
