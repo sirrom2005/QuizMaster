@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private List<QuizDataModel.Result> data;
     private int score;
     private TextView vSteps, vQuiz;
-    int mLvl, mCat, mNum;
+    private int mLvl, mCat, mNum;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                     ? ""
                     : Common.getGameLevelList().get(mLvl).getTitle().toLowerCase();
 
-            String url = String.format( "http://www.rohanmorris.info/api/quiz.php?amount=%s&category=%s&difficulty=%s",
+            String url = String.format( "http://www.fimiyaad.com/services/quiz.php?amount=%s&category=%s&difficulty=%s",
                                         mNum,
                                         Common.getGameCategoryList().get(mCat).getId(),
                                         level) ;
@@ -152,10 +152,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String s) {
+
             super.onPostExecute(s);
             if(s != null) {
                 Gson gson = new Gson();
-                QuizDataModel QuizArray = gson.fromJson("", QuizDataModel.class);
+                QuizDataModel QuizArray = gson.fromJson(s, QuizDataModel.class);
 
                 switch(QuizArray.getResponseCode()) {
                     case 0:
